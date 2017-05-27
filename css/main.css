@@ -1,43 +1,28 @@
-a {
-  text-decoration:none;
-}
-
-
+/**************************
+GENERAL 
+**************************/
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+/**************************
+HEADER
+**************************/
+
 #logo {
   text-align: center;
   margin: 0;
 }
 
-a {
-  color: #6ab47b;
-}
-
-header {
-  background: #6ab47b;
-  border-color: #599a68;
-}
-
-h1, h2 {
-  color: #fff;
-}
-
-nav {
-  background: #599a68;
-}
-
-nav a, nav a:visited {
-  color: #fff;
-}
-
-nav a.selected, nav a:hover {
-  color: #326737;
-}
+/**************************
+COLORS
+**************************/
 
 /* Site body */
 
@@ -45,3 +30,36 @@ body {
   background-color: #fff;
   color: #999;
 }
+
+/* green header  */
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background on mobile */
+
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #326737;
+}
+
+
