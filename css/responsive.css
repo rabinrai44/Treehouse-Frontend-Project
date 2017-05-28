@@ -24,6 +24,10 @@ PAGE: PORTFOLIO
     width: 28.3333%;
   }
   
+ #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
 }
 
 @media screen and (min-width: 660px) {
